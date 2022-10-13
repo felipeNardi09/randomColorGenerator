@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  display: grid;
+  height: 100%;
+}
+.header-div {
+  margin: auto;
+  text-align: center;
+  padding: 2em;
+}
+main {
+  display: grid;
+}
+.main-div {
+  margin: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.the-button {
+  border-radius: 0.4em;
+  padding: 0.7em;
+  font-size: 1.2em;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.the-button:hover {
+  background-color: rgb(167, 167, 167);
+  cursor: pointer;
+}
+.background-div {
+  margin: 0.6em;
+
+  height: 6em;
+}
+.line-1 {
+  border-radius: 1.6em;
+}
+.line-2 {
+  border-radius: 3em;
+  height: 7em;
+}
+.line-3 {
+  height: 7em;
+}
+.line-button {
+  height: 6em;
+}
+.button-div {
+  text-align: center;
+  line-height: 6em;
+}
+address {
+  font-style: normal;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}
